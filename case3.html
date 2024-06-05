@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 200px;
+            width: 500px;
+            height: 300px;
+            position: relative;
+            transition: all 3s ease;
+            overflow: hidden;
+            border-radius:30px ;
+            border: 2px solid peru;
+        }
+        div:hover{
+            background-color: brown;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 3s ease;
+        }
+        div:hover #two{
+            transform: translate(-500px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; padding-block: 30px; font-size: 3rem;">incapp institute</h1>
+        <img src="https://t3.ftcdn.net/jpg/06/10/71/64/360_F_610716498_li6BIgt75TXw8B4W89pbf3VtKgHNQkXo.jpg" alt="" id="two">
+    </div>
+</body>
+</html>
